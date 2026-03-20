@@ -1,0 +1,27 @@
+<Window x:Class="SimpleScreenBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simple Screen Bot" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Detection Rules">
+                <StackPanel>
+                    <TextBlock Text="Detection Rules" FontSize="24" Margin="10" />
+                    <!-- Add detection rules UI elements here -->
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Bot Control">
+                <StackPanel>
+                    <TextBlock Text="Bot Control" FontSize="24" Margin="10" />
+                    <!-- Add bot control UI elements here -->
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Activity Logs">
+                <StackPanel>
+                    <TextBlock Text="Activity Logs" FontSize="24" Margin="10" />
+                    <!-- Add activity logs UI elements here -->
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
